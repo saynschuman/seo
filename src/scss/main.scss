@@ -434,7 +434,7 @@ hr {
 .send_button2 {
   margin-right: 10px;
   a {
-    padding: 13px 14px;
+    padding: 13px 12px;
     display: block;
   }
 }
@@ -1089,7 +1089,7 @@ hr {
     padding-left: 25px;
   }
   .send_button2 {
-    padding: 9px 10px;
+    /*padding: 9px 10px;*/
   }
   .marg {
     margin-top: 0;
@@ -1118,6 +1118,7 @@ hr {
   .second_block img {
     width: 80%;
     height: auto;
+    margin: 0 auto;
   }
   .event, .about, .requirement, .feedback, .our_partners {
     font-size: 32px;
@@ -1161,7 +1162,7 @@ hr {
     font-size: 12px;
   }
   .send_button2 {
-    padding: 9px 6px;
+    /*padding: 9px 6px;*/
   }
   .subscribe3 {
     margin-top: 27px;
@@ -1171,7 +1172,7 @@ hr {
     margin-right: 50px;
   }
   .first_block {
-    margin-left: 3.5%;
+    margin-left: 0;
     margin-right: 2%;
     margin-top: -60px;
   }
@@ -1258,8 +1259,6 @@ hr {
     margin-left: 0;
   }
   .second_block img {
-    width: 74%;
-    margin-left: 10%;
   }
   .change_container1 {
     display: none;
