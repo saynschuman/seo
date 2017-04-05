@@ -1,3 +1,15 @@
+@media screen and (max-width: 1200px)  {
+
+  .da-thumbs li {
+      float: none;
+      background: #f5f5f5;
+      position: relative;
+      margin-right: 1px;
+      display: block;
+      padding: 7px 10px;
+  }
+
+}
 @media screen and (max-width: 970px) {
   .menu_link{
     display: block;
@@ -11,5 +23,5 @@
   }
   .da-thumbs{
     display: none;
-  }
+  }  
 }
