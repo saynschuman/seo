@@ -23,7 +23,14 @@
                     slidesToShow: 2,
                     slidesToScroll: 1,
                 }
-            }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                }
+            }            
         ]
     });
 
@@ -37,14 +44,10 @@
         dotsClass: "my-dots",
     });
 
-
-    $('.burger_deluxe').on('click',function() {
-
-        $(this).toggleClass('open');
-        $('.overlay').toggleClass('open');
-
-    });
-
+    $('.menu_link').click(function(e){
+        e.preventDefault();
+        $('.da-thumbs').slideToggle();
+    })
 
 
 })(jQuery);

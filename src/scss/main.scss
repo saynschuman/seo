@@ -43,10 +43,6 @@ a {
   cursor: pointer;
 }
 
-a:hover, a:focus {
-  color: black;
-}
-
 .container {
   width: 1204px;
   max-width: 100%;
@@ -117,6 +113,11 @@ iframe {
   padding-top: 13px;
   padding-right: 47px;
   text-align: right;
+  a {
+    color: #333333;
+    font-weight: 100;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
 }
 
 .background_field {
@@ -200,7 +201,10 @@ iframe {
   background-color: #fff;
   border-radius: 4px;
   border: 1px solid #fff;
-  padding: 13px 17px;
+  a {
+    padding: 13px 17px;
+    display: block;
+  }
 }
 
 .marg_left {
@@ -428,8 +432,11 @@ hr {
 }
 
 .send_button2 {
-  padding: 13px 19px;
   margin-right: 10px;
+  a {
+    padding: 13px 14px;
+    display: block;
+  }
 }
 
 
@@ -757,9 +764,18 @@ hr {
 }
 
 .width90 {
-  width: 90%;
+  width: 100%;
   align-self: center;
-  padding: 10px 0 40px 0;
+  padding: 0 0 40px;
+  .img-wr {
+    width: 20%;
+    float: left;
+  }
+  img {
+    display: block;
+    margin: auto;
+    max-width: 200px;
+  }
 }
 
 .partners {

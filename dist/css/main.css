@@ -6000,9 +6000,6 @@ a {
   text-decoration: none !important;
   cursor: pointer; }
 
-a:hover, a:focus {
-  color: black; }
-
 .container {
   width: 1204px;
   max-width: 100%;
@@ -6064,6 +6061,10 @@ iframe {
   padding-top: 13px;
   padding-right: 47px;
   text-align: right; }
+  .contact_css a {
+    color: #333333;
+    font-weight: 100;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 .background_field {
   background-image: url("../images/../img/background.jpg");
@@ -6142,8 +6143,10 @@ iframe {
   background-color: #fff;
   -webkit-border-radius: 4px;
           border-radius: 4px;
-  border: 1px solid #fff;
-  padding: 13px 17px; }
+  border: 1px solid #fff; }
+  .send_button a {
+    padding: 13px 17px;
+    display: block; }
 
 .marg_left {
   margin-left: 13px; }
@@ -6442,8 +6445,10 @@ hr {
   z-index: 80; }
 
 .send_button2 {
-  padding: 13px 19px;
   margin-right: 10px; }
+  .send_button2 a {
+    padding: 13px 14px;
+    display: block; }
 
 .two, .three, .four {
   color: #fff; }
@@ -6779,12 +6784,19 @@ hr {
   letter-spacing: 0.17px; }
 
 .width90 {
-  width: 90%;
+  width: 100%;
   -webkit-align-self: center;
       -ms-flex-item-align: center;
               -ms-grid-row-align: center;
           align-self: center;
-  padding: 10px 0 40px 0; }
+  padding: 0 0 40px; }
+  .width90 .img-wr {
+    width: 20%;
+    float: left; }
+  .width90 img {
+    display: block;
+    margin: auto;
+    max-width: 200px; }
 
 .partners {
   display: -webkit-box;

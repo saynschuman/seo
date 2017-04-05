@@ -8,20 +8,235 @@
       display: block;
       padding: 7px 10px;
   }
-
-}
-@media screen and (max-width: 970px) {
-  .menu_link{
-    display: block;
-    float: right;
-    height:50px;
-    width: 50px;
-    background-color: #000;
-  }
-  .contact_css{
-
-  }
   .da-thumbs{
     display: none;
+    padding-left: 0;
+    padding-right: 25px;
   }  
+  .menu_link {
+    display: block;
+    height: 30px;
+    width: 30px;
+    margin-top: 32px;
+    right: 0;;
+    z-index: 1;
+    position: absolute;
+    span {
+      height: 2px;
+      width: 100%;
+      background-color: #c42a30;
+      display: block;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      &::before {
+        content: '';
+        position: absolute;
+        top: -6px;
+        width: 100%;
+        left: 0;
+        height: 2px;
+        background-color: #c42a30;
+      }
+      &::after {
+        content: '';
+        position: absolute;
+        bottom: -6px;
+        width: 100%;
+        left: 0;
+        height: 2px;
+        background-color: #c42a30;
+      }
+    }
+  }
+}
+@media screen and (max-width: 991px) {
+  .menu_block {
+    height: auto;
+  }
+  .contact_css {
+    padding-right: 0;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .left-head {
+    img {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+  .logo {
+    padding-left: 0;
+  }
+  .da-thumbs li {
+    text-align: center;
+  }
+  .da-thumbs {
+    padding: 0;
+  }
+  .menu_link {
+    position: relative;
+    margin-top: 0;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    &::before {
+      content: 'Меню';
+      position: absolute;
+      left: -40px;
+      font-size: 20px;
+      color: #c42a30; 
+    }
+    span {
+      left: 30px;
+    }
+   }
+   .right_floating {
+    margin-left: 15px;
+  }
+  .width46 {
+    width: 100%;
+  }
+  .marg {
+    flex-direction: column;
+    padding: 0 15px;
+  }
+  .about_marg {
+    margin-left: 0;
+  }
+  .flex_cont_idea {
+    justify-content: center;
+  }
+  .flex_cont {
+    flex-direction: column;
+  }
+  .block20 {
+    width: 100%;
+  }
+  .feedback {
+    padding-bottom: 30px;
+  }
+  .slick-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+    z-index: 99;
+  }
+  .slick-arrow:first-child {
+    align-self: flex-start;
+  }
+  .slick-arrow:last-child {
+    align-self: flex-end;
+  }
+  .background_field1 {
+    background-size: cover; 
+
+  }
+  .background_field1 {
+    height: 350px;
+  }
+  .first_block {
+    width: 100%;
+    margin-right: 0;
+  }
+  .expert_view_p {
+    padding-top: 0;;
+  }
+  .expert_view,
+  .expert_view_p,
+  .expert_view_sign {
+    text-align: center;
+  }
+  .second_block {
+    margin-top: 14px;
+    display: block;
+    padding-bottom: 53px;
+    max-width: 300px;
+    margin: auto;
+  }
+  .img_marg1 > a {
+    margin-right: 10px;
+  }
+  .width90 .img-wr {
+    width: 100%;
+    float: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .frame_block {
+      width: 100%;
+      margin: 15px;
+  }  
+  .footer_logo {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .footer_box {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 27px 15px;
+    text-align: center;
+  }
+  .input_css2 {
+    width: 100%;
+  }
+  .contact_css {
+    span {
+      display: block;
+    }
+  }
+  .input_css {
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .send_button {
+    width: 100%;
+    margin-left: 0;
+  }
+  .questmark_block {
+    width: 100%;
+  }
+  .header_css h1 {
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 41px;
+    color: #fff;
+    line-height: 42px;
+    letter-spacing: -3px;
+  }
+  .flex_cont_idea {
+    flex-direction: column;
+  }
+  .artur {
+    margin-top: 28px;
+    margin-left: 0;
+    img {
+      display: block;
+      margin: 0 auto;
+      max-width: 200px;
+    }
+  }
+  .feedback_height {
+      height: auto;
+      width: 100%;
+  }  
+  .date {
+    width: 27%;
+  }
+  .event, .about, .requirement, .feedback, .our_partners {
+    font-size: 27px;
+    line-height: 1.2;
+  }
+  .right_floating {
+      margin-left: 0;
+      padding: 15px;
+  }  
+  .marg_top {
+    margin-top: 16px;
+  }
+  .background_field1 {
+    height: 420px;
+  }
 }
