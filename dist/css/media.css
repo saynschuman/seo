@@ -1,0 +1,9 @@
+@media screen and (max-width: 970px) {
+  .menu_link {
+    display: block;
+    float: right;
+    height: 50px;
+    width: 50px;
+    background-color: #000; }
+  .da-thumbs {
+    display: none; } }
